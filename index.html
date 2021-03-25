@@ -1,376 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-    <title>Stargram Web</title>
-
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/orkney" type="text/css"/>
-    <link rel="stylesheet" media="screen" href="./fonts/AGaramondPro-Regular.woff" type="text/css"/>
-    <link rel="stylesheet" media="screen" href="./fonts/Gilroy-Medium.ttf" type="text/css"/>
-    <link rel="icon" href="./svg/Stargram Logo.svg" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <style>
-        .mouse {
-            width: 32px;
-            height: 32px;
-            margin-left: 10px;
-            background: url("./svg/Scroll.svg") no-repeat;
-            background-repeat: no-repeat !important;
-            background-size: 100% 100% !important;
-        }
-        .mouse:hover {
-         background: url("./svg/Scroll2.svg") no-repeat;
-        }
-    </style>
+    <link rel="icon" href="assets/images/icon.png" type="image/icon type">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Stargram Web</title>
 </head>
+
 <body>
-  <div id="full-container" >
+    <nav class="navbar fixed-top" style="height: 70px;">
+        <div class="container" style="text-decoration: none;">
+            <div class="navbar-brand logo">
+                <img src="assets/images/icon.svg" width="25" height="25" class="d-inline-block align-top" alt="">
+                <span>Stargram</span>
+            </div>
+            <div class="header-join">
+               <a href="#join-section"><span class="d-flex justify-content-center align-self-center">JOIN NOW</span></a> 
+            </div>
+        </div>
+    </nav>
+    <!-- First Seciton Home -->
+    <section class="container img-icon first-section">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="txt-h1">Build direct meaningful
+                    connection with great people</h2><hr class="first"><br>
+                <h3 class="txt-p">Free and friendly way to e
+                    ngage with your people and
+                    strengthen the relationship with them</h3>
+                <br><br>
+                <div class="section-join">
+                   <a href="#join-section"><span class="d-flex justify-content-center align-self-center">JOIN NOW</span></a> 
+                </div>
+            </div>
+           
+        </div>
         
-    <section class="header-top-content">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-6 col-sm-6 col-md-3 col-lg-6 col-xl-6">
-            <div ><img src="./svg/Stargram Logo.svg" class="header-logo"><div class=" d-none d-md-block header-stargram">Stargram</div></div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-9 col-lg-6 col-xl-6">
-            <a href="#submit-section"><button class="header-sign">Sign Up</button></a>
-          </div>
-        </div>
-      </div>
     </section>
-
-    <section id="header-featured-content-outer">
-      <div class="tagline-content">
-                
-        <p class="startTyper"></p>
-      </div>
-      <div class='icon-scroll'>
-        <a href="#search-section"><div class="mouse"></div></a>  
-      </div>
-    </section>
-    <section id="search-section">
-      <div class="row">
-        <div class="col-md-4 search-get-section">
-          <div class=" cards" >
-            <div class="search-your-section "><img class="search search-your-content"src="./svg/Search Image.svg" class="card-img-top "   alt="..."></div>
-              <h6 class="description-search">Search your <br>favourite Youtuber</h6>
-          </div>
-          <div class="dashed"><img src="./svg/Line 10.svg" alt=""></div>
-          <img class="line-1" src="./svg/Path 446.svg" alt="">
-        </div>
-        <div class="col-md-4 record-section">
-          <div class=" cards" >
-            <div class="search-your-section">  <img src="./svg/Record Image.svg" class="card-img-top record-send-content"   alt="..."></div>
-            <h6 class="description">Record & send<br> message</h6>
-            <div class="d-none d-md-block" >
-              <a  href="#submit-section"><button class="sign-button-2">Sign Up</button></a>
-            </div>
-            <div class="dashed"><img src="./svg/Line 10.svg" alt=""></div>
-          </div>
-        </div>
-        <div class="col-md-4 search-get-section">
-          <div class=" cards">
-            <div class="search-your-section "><img class="reply" src="./svg/Reply Image.svg" class="card-img-top "   alt="..."></div>
-            <h6 class="description-reply">Get reply from<br> them</h6>
-          </div>
-          <img class="line-2" src="./svg/Path 447.svg" alt="">
-        </div>
-                
-      </div>
-    </section>
-    <section class="image-section">
-      <div class="star-on-stargram"><h5>Stars On Stargram </h5></div>
-      <hr class="hrline">
-      <div class="container">
-        <div class="row top-img">
-          <div class="col-6 col-md image-1">
-            <div ><img class="img-style" src="./images/Group 201.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-          <div class="col-6 col-md image-2">
-            <div ><img class="img-style"src="./images/Group 202.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-          <div class="col-6 col-md image-3">
-            <div ><img class="img-style"src="./images/Group 203.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-          <div class="col-6 col-md image-4">
-            <div ><img class="img-style"src="./images/Group 204.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-          <div class="col-md  image-5">
-            <div ><img class="img-style"src="./images/Group 205.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-        </div>
-        <div class="row bottom-img">
-          <div class="col-6 col-md image-6">
-            <div ><img class="img-style" src="./images/Group 206.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-          <div class="col-6 col-md   image-7">
-            <div ><img class="img-style"src="./images/Group 207.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-          <div class="col-6 col-md  image-8">
-            <div ><img class="img-style"src="./images/Group 208.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-          <div class="col-6 col-md  image-9">
-            <div ><img class="img-style"src="./images/Group 209.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-          <div class=" col-6 col-md image-10">
-            <div ><img class="img-style"src="./images/Group 210.png" alt=""><div class="bottom-left-of-image"></div></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6  ">
-          <section class="sign-top" id="submit-section">
-            <div class="signUp-section"> 
-              <h2 class="sign-up">Sign &nbsp;Up &nbsp;as &nbsp;a &nbsp;Star</h2><br>
-              <p style="font-family: 'Sen';margin-top: -23px;margin-left: 1px;">Want to join Stargram as a star, you can<br> enroll here and we'll be in touch.</p>
-            </div>
-            <form class="signUp-form" id="submit-form"  action="" >
-              <input class="form-style"type="text" placeholder="Name" id="fname" name="fname"><br><br>
-              <input class="form-style"type="email" placeholder="Email"id="email" name="email"><br><br>
-              <input type="number" class="form-style" placeholder="Mobile" id="mobile" name="Mobile"><br><br>
-              <button class="submit-button">Submit</button>
-                            
-            </form>
-          </section>
-                    
-                        
-        </div>
-        <div class="col-12 col-md-6 chat-box ">
-          <section class="sign-top2">
-            <img class="mobile-image" src="./svg/Group 194.svg" alt="">
-            <div class="center-of-mobile">
-              <div class="status-bar"></div>
-              <div class="chat">
-                <div class="user-bar">
-                  <div class="name">
-                    <h4>FAQ</h4>
-                  </div>
-                </div>
-                <div class="conversation">
-                  <div class="conversation-container">
-                    <div class="message sent">
-                      STARGRAM?? What's that?🤔 
-                      <span class="metadata">
-                        <span class="time">9:15 AM</span>
-                      </span>
-                    </div>
-                    <div class="message received">
-                      You don't know? 
-                      <span class="metadata"><span class="time">9:16 AM</span></span>
-                    </div>
-                    <div class="message received">
-                      OMG! 😳
-                      <span class="metadata"><span class="time">9:16 AM</span></span>
-                    </div>
-                    <div class="message received">
-                      It's a platform to connect with your favourite YouTubers.
-                      <span class="metadata"><span class="time">9:16 AM</span></span>
-                    </div>
-                    <div class="message sent">
-                      Oh really, Is it possible?😇
-                      <span class="metadata">
-                        <span class="time">9:16 AM</span>
-                      </span>
-                    </div>
-                    <div class="message received">
-                      <span id="random">Yes, of course 💯
-                      </span>
-                      <span class="metadata"><span class="time">9:17 AM</span></span>
-                    </div>
-                    <div class="message sent">
-                      How can I connect with my favourite YouTuber❓️
-                      <span class="metadata">
-                          <span class="time">9:17 AM</span>
-                      </span>
-                    </div>
-                    <div class="message received">
-                      It's super easy now 🤠
-                      <span class="metadata"><span class="time">9:18 AM</span></span>
-                    </div>
-                    <div class="message received">
-                      Recharge your Stargram wallet
-                      <span class="metadata"><span class="time">9:18 AM</span></span>
-                    </div>
-                    <div class="message received">
-                      Just search your favourite YouTuber and send your recorded message 💌
-                      <span class="metadata"><span class="time">9:18 AM</span></span>
-                    </div>
-                    <div class="message sent">
-                      So will I get a quick reply?
-                      <span class="metadata">
-                          <span class="time">9:20 AM</span>
-                      </span>
-                    </div>
-                    <div class="message received">
-                      <span id="random">
-                          If they are not busy, 
-                      </span>
-                      <span class="metadata"><span class="time">9:21 AM</span></span>
-                    </div>
-                    <div class="message received">
-                      <span id="random">
-                          you will get a fast reply 📲
-                      </span>
-                      <span class="metadata"><span class="time">9:21 AM</span></span>
-                    </div>
-                    <div class="message sent">
-                      Oh.. but i think there will be a huge amount for the messages!😇
-                      <span class="metadata">
-                          <span class="time">9:22 AM</span>
-                      </span>
-                    </div>
-                    <div class="message received">
-                      No never. You can connect them at a reasonable rate ✌️
-                      <span class="metadata"><span class="time">9:23 AM</span></span>
-                    </div>
-                    <div class="message sent">
-                      Then it's a good chance 🔥
-                      <span class="metadata">
-                          <span class="time">9:24 AM</span>
-                      </span>
-                    </div>
-                    <div class="message sent">
-                      When will I be charged for my messages? 
-                      <span class="metadata">
-                          <span class="time">9:25 AM</span>
-                      </span>
-                    </div>
-                    <div class="message received">
-                      <span id="random">
-                        That's the best thing,
-                      </span>
-                      <span class="metadata"><span class="time">9:26 AM</span></span>
-                    </div>
-                    <div class="message received">
-                      <span id="random">
-                        You will be only charged after you receive a reply 💬
-                      </span>
-                      <span class="metadata"><span class="time">9:27 AM</span></span>
-                    </div>
-                    <div class="message sent">
-                      Sounds great 😍
-                      <span class="metadata">
-                          <span class="time">9:28 AM</span>
-                      </span>
-                    </div>
-                    <div class="message sent">
-                      How many messages can I send at a time ❔️
-                      <span class="metadata">
-                          <span class="time">9:28 AM</span>
-                      </span>
-                    </div>
-                    <div class="message received">
-                      It's Unlimited  🥳
-                      <span class="metadata"><span class="time">9:29 AM</span></span>
-                    </div>
-                    <div class="message received">
-                      You only need to keep a minimum balance of Rs. 25 in your wallet 💰
-                      <span class="metadata"><span class="time">9:29 AM</span></span>
-                    </div>
-                    <div class="message sent">
-                      Wow, it's awesome!
-                      <span class="metadata">
-                          <span class="time">9:30 AM</span>
-                      </span>
-                    </div>
-                    <div class="message sent">
-                      Where can I get the Stargram App 🤩
-                      <span class="metadata">
-                          <span class="time">9:30 AM</span>
-                      </span>
-                    </div>
-                    <div class="message received">
-                      It's available on both  Play Store and App Store.
-                      <span class="metadata"><span class="time">9:31 AM</span></span>
-                    </div>
-                  </div> 
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </div>
-    <section>
-      <div >
-        <h1 class="download-ios-meadia download-ios">Download for <span class="ios-meadia">iOS / Android</span></h1><br>
-        <div class="row">
-          <div class="col-6 apps apple-image" ><img class="apple-size"src="./svg/Apple store.svg" alt=""></div>
-          <div class="col-6 apps google-image"><img class="google-size" src="./images/google-play-badge png.png"></div>
-        </div>
-      </div>
-     </section>
-    <section style="background-color: black;">
-      <div class="bottom">
-        <div class="row">
-          <div class=" col-md-4 col-6 bottom-logo-meadia">
-            <img src="./svg/Stargram Logo.svg" class="logo-bottom "> <h4 class="bottom-stargram">Stargram</h4>
-          </div>
-          <div class="col-md-8 col-6">
+    <!-- End of First Section Home -->
+    <!-- Second Section -->
+    <section class="container second-section">
+        <div class="testing" style="margin-top: 10px;">
             <div class="row">
-              <div class=" col-md-6 col-12 connect" >
-                <div> <p>Connect Us</p>
-                  <p class="hello">hello@stargram.in</p>
+                <div class="col-md-6 col-sm-12 mr-3">
+                    
+                    <div class="red-part">
+                            <img src="assets/images/red search.svg" alt="" class="responsive">
+                    </div>
                 </div>
-              </div>
-              <div class=" col-md-6 col-12 term">
-                <br><p> <a href="https://stargram.in/terms"> Terms & Conditions</a> </p>
-              </div>
+                <div class="col-md-6 col-sm-12">
+                    <img src="assets/images/blue box.svg" alt="" class="responsive">
+                </div>
+                
             </div>
-          </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-12"></div>
+                <div class="col-md-6 col-sm-12 yello-part" >
+                    <img src="assets/images/yellow.svg" alt="" class="responsive">
+                </div>
+                <div class="col-md-3 col-sm-12"></div>
+            </div>
         </div>
-      </div>
     </section>
-  </div>
-  <script>
-    $("#submit-form").submit((e)=>
-    {
-      e.preventDefault()
-      $.ajax({
-        url:"https://script.google.com/macros/s/AKfycbySoWapfx4E6g8nJJn7Dg1Z5X0sW8NZ-_sqUmvY/exec",
-        data:$("#submit-form").serialize(),
-        method:"post",
-        success:function (response)
-        {
-          alert("Form submitted successfully")
-          window.location.reload()
-        },
-        error:function (err)
-        {
-          alert("Something Error")
-        }
-      })
-    })
-  </script>
-  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>    
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/compressed.js"></script>
-  <script>
-	  $(function() 
-    {
-	    $(".startTyper").typed
-      ({
-        strings: ["For Those Who are Talented & \n For Those Who believes In Your Talent ","One True Believer Is Worth More Than A Thousand Follower"],
-        typeSpeed: 1, // typing speed
-        backDelay: 2500, // pause before backspacing
-        loop: true, // loop on or off (true or false)
-        loopCount: false, // number of loops, false = infinite
-      });
-    });
-	</script>   
+    <!-- End of Second Section -->
+    <!-- Third Section -->
+    <section class="container third-section">
+        <div class="container">
+            <h3 class="third-head">Let the messages of encouragement</h3>
+            <h3 class="third-head">from your people fund your passion</h3><hr class="second">
+            <p class="third-sub join-on-text"> Joining on Stargram is easy</p><br>
+            <div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 col-12">
+                        <div class="cloud1">
+
+                        </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-4">
+                        <div class="cloud2">
+
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-1"></div> -->
+
+                </div>
+                <div class="row cloud3-row" >
+
+                    <div class="col-md-4">
+
+                    </div>
+                    <div class="col-md-3 outer-cloud3">
+                        <div class="cloud3"></div>
+
+                    </div>
+                    <div class="col-md-5"></div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Third Section -->
+    <!-- Fourth section  -->
+    <section class="container fourth-section">
+        <div class="four-head">
+            <p class="pt-4">Thousands of YouTubers and their </p>
+            <p class="pb-5">supporters are having fun on Stargram</p><hr class="third">
+        </div>
+        <p class="third-sub" id="join-section"> Joining on Stargram now</p><br>
+
+        <div class="row align-items-center download-sec" style="margin-top: 30px;">
+            <div class="col-md-3"></div>
+            <div class="col-md-4">
+                <div class="four-data androind-data">
+                    <div class="box">
+                    </div>
+                    <div>
+                        <p> For Android</p>
+
+                      <a href="https://play.google.com/store/apps/details?id=com.stargram_india.stargram"> <img src="./assets/images/google-play-badge.svg" alt="" class="android" ></a> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="four-data ios-data">
+                    <div class="box">
+                        <p>Coming soooon</p>
+                    </div>
+                    <div>
+                        <p class="for-ios"> For iOS</p>
+
+                        <img src="./assets/images/Apple store.svg" alt="" class="ios">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of the fourth section -->
+    <!-- Whatsapp section-->
+    <section class="container whatsapp-section">
+
+        <div class="row">
+            <div class="col-md-2 col-0">
+
+            </div>
+            <div class="col-md-8 col-12">
+                <h2 class="whats-head">Wanna join with our team</h2>
+            </div>
+            <div class="col-md-2 col-0">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-0">
+
+            </div>
+            <div class="col-md-8 col-12">
+                <p class="whatsapp-sub">Reach Us by WhatsApp</p>
+            </div>
+            <div class="col-md-2 col-0">
+                
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-0">
+
+            </div>
+            <div class="col-md-8 col-12">
+                
+               <a href=""> <img src="./assets/images/WhatsApp.svg" alt="" class="whatsapp-icon"></a>
+               <p class="mobile-number">(+91) 00000 00000</p>
+           
+            </div>
+            <div class="col-md-2 col-0">
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Whatsapp section End-->
+
+    <!-- Fifth Section -->
+    <section class="container fifth-section">
+       <div>
+        <div class="last-sect" id="imgplus">
+
+            <div style="padding-left: 10px;padding-top: 10px;" class="" >
+                <button type="button" onclick="test()" class="collapsible"
+                    style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-add.svg"
+                        alt=""></button>
+                <p style="display: inline-block; padding-left: 10px;" class="mt-3 last-p">How does Stargram work?</p>
+            </div>
+        </div>
+        <div class="last-sub" id="imgminus" style="display: none;">
+            <div style="padding-left: 10px;padding-top: 10px;" >
+                <button type="button" onclick="testminus()"  class="collapsible"
+                style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-minus.svg"
+                    alt="" ></button>
+                    <p style="display: inline-block; padding-left: 10px;"   class="mt-3 last-p">How does Stargram work?</p>
+                    <div style="max-width: 700px;">
+                        <p class="second-p" style="padding-left: 44px;">It’s simple! Your people can send you a personalised video message to your Stargram account and you get paid when you reply :)</p><br>
+                    </div>
+                </div>
+        </div>
+       </div>
+       <div class="mt-4">
+        <div class="last-sect" id="imgplusone">
+
+            <div style="padding-left: 10px;padding-top: 10px;" class="" >
+                <button type="button" onclick="testone()" class="collapsible"
+                    style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-add.svg"
+                        alt=""></button>
+                <p style="display: inline-block; padding-left: 10px;" class="mt-3 last-p">What if I couldn’t reply to a message?</p>
+            </div>
+        </div>
+        <div class="last-sub" id="imgminusone" style="display: none;">
+            <div style="padding-left: 10px;padding-top: 10px;" >
+                <button type="button" onclick="testminusone()"  class="collapsible"
+                style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-minus.svg"
+                    alt="" ></button>
+                    <p style="display: inline-block; padding-left: 10px;"   class="mt-3 last-p">What if I couldn’t reply to a message?</p>
+                    <div style="max-width: 700px;">
+                        <p class="second-p" style="padding-left: 44px;">Don’t worry, their message credit will be returned if they didn’t get a reply from you</p><br>
+                    </div>
+                </div>
+        </div>
+       </div >
+       <div class="mt-4">
+        <div class="last-sect" id="imgplustwo">
+
+            <div style="padding-left: 10px;padding-top: 10px;" class="" >
+                <button type="button" onclick="testtwo()" class="collapsible"
+                    style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-add.svg"
+                        alt=""></button>
+                <p style="display: inline-block; padding-left: 10px;" class="mt-3 last-p">How long can I take to reply to a message?</p>
+            </div>
+        </div>
+        <div class="last-sub" id="imgminustwo" style="display: none;">
+            <div style="padding-left: 10px;padding-top: 10px;" >
+                <button type="button" onclick="testminustwo()"  class="collapsible"
+                style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-minus.svg"
+                    alt="" ></button>
+                    <p style="display: inline-block; padding-left: 10px;"   class="mt-3 last-p">How long can I take to reply to a message?</p>
+                    <div style="max-width: 700px;">
+                        <p class="second-p" style="padding-left: 44px;">You will get a 72hr window to reply to a message, after that message will be automatically deleted</p><br>
+                    </div>
+                </div>
+        </div>
+       </div>
+       <div class="mt-4">
+        <div class="last-sect" id="imgplusthree">
+
+            <div style="padding-left: 10px;padding-top: 10px;" class="" >
+                <button type="button" onclick="testthree()" class="collapsible"
+                    style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-add.svg"
+                        alt=""></button>
+                <p style="display: inline-block; padding-left: 10px;" class="mt-3 last-p">When will I receive the payouts?</p>
+            </div>
+        </div>
+        <div class="last-sub" id="imgminusthree" style="display: none;">
+            <div style="padding-left: 10px;padding-top: 10px;" >
+                <button type="button" onclick="testminusthree()"  class="collapsible"
+                style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-minus.svg"
+                    alt="" ></button>
+                    <p style="display: inline-block; padding-left: 10px;"   class="mt-3 last-p">When will I receive the payouts?</p>
+                    <div style="max-width: 700px;">
+                        <p class="second-p" style="padding-left: 44px;">Your earnings will be deposited to your bank account on every 7 working days</p><br>
+                    </div>
+                </div>
+        </div>
+       </div>
+       <div class="mt-4">
+        <div class="last-sect" id="imgplusfour">
+
+            <div style="padding-left: 10px;padding-top: 10px;" class="" >
+                <button type="button" onclick="testfour()" class="collapsible"
+                    style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-add.svg"
+                        alt=""></button>
+                <p style="display: inline-block; padding-left: 10px;" class="mt-3 last-p">How to contact you?</p>
+            </div>
+        </div>
+        <div class="last-sub" id="imgminusfour" style="display: none;">
+            <div style="padding-left: 10px;padding-top: 10px;" >
+                <button type="button" onclick="testminusfour()"  class="collapsible"
+                style="background-color: white; border: none;"><img src="./assets/images/Icon ionic-md-minus.svg"
+                    alt="" ></button>
+                    <p style="display: inline-block; padding-left: 10px;"   class="mt-3 last-p">How to contact you?</p>
+                    <div style="max-width: 700px;">
+                        <p class="second-p" style="padding-left: 44px;">we are always ready to help you.. please email us to hello@stargram.in or DM us on instagram</p><br>
+                    </div>
+                </div>
+        </div>
+       </div>
+        
+
+
+
+    </section>
+    <!-- End of fifth -->
+    <!-- Footer -->
+    <footer class="stargram-footer">
+        <div class="container">
+            <div style="padding-top: 90px;">
+                <div class="footer-logo">
+                    <img src="assets/images/icon.svg" width="52" height="52" class="d-inline-block align-top" alt="">
+                    <span class="m-3">Stargram</span>
+                    <p class="privacy-text"><span style="float: right;">Privacy & Terms</span></p><br>
+                    <p class="footer-text">&copy; Stargram Entertainments 2021 <span style="float: right;"> Email: hello@stargram.in </span>
+                    </p>
+
+                </div>
+            </div>      
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <!-- End of Footer -->
 </body>
+
 </html>

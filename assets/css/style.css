@@ -1,0 +1,879 @@
+@font-face {font-family: "Neutraface Text Bold";
+  src: url("http://db.onlinewebfonts.com/t/33c69019b1d9231e1004f52ae937b0da.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/33c69019b1d9231e1004f52ae937b0da.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("http://db.onlinewebfonts.com/t/33c69019b1d9231e1004f52ae937b0da.woff2") format("woff2"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/33c69019b1d9231e1004f52ae937b0da.woff") format("woff"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/33c69019b1d9231e1004f52ae937b0da.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("http://db.onlinewebfonts.com/t/33c69019b1d9231e1004f52ae937b0da.svg#Neutraface Text Bold") format("svg"); /* iOS 4.1- */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.cdnfonts.com/css/neutra-text-alt");
+@import url("https://db.onlinewebfonts.com/c/33c69019b1d9231e1004f52ae937b0da?family=Neutraface+Text+Bold");
+@import url('https://allfont.net/allfont.css?fonts=comic-sans-ms');
+
+
+
+.fifth-section{
+  margin-top:210px;
+}
+
+.mobile-number{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.txt-h1{
+  font-size: 3.650rem;
+}
+
+.first-section{
+  margin-top: 210px;
+}
+.second-section{
+  margin-top: 139px;
+}
+.third-section{
+  margin-top: 210px
+}
+.fourth-section{
+  margin-top:210px;
+}
+.stargram-footer{
+  margin-top:210px;
+}
+
+.whatsapp-section{
+  margin-top: 200px;
+}
+.whats-head{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Neutraface Text Bold";
+  font-weight: bolder;
+}
+.whatsapp-icon{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  display: block; margin-left: auto; margin-right: auto;
+}
+
+.whatsapp-sub{
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Comic Sans MS", arial;
+  font-size: 29px;
+  font-weight: normal;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.navbar{
+  background: white;
+}
+.logo {
+  font-family: "Sen", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+.logo img {
+  margin-top: 2px;
+}
+.logo span {
+  margin-left: 5px;
+}
+.header-join {
+  height: 38px;
+  width: 139px;
+  background-color: #ffdd00;
+}
+.header-join span {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 6px;
+}
+.txt-h1 {
+  font-family: "Neutraface Text Bold";
+  font-weight: bolder;
+}
+.img-icon {
+  background: url("../images/Group\ 347.svg") no-repeat top right;
+  background-size: 538px 300px;
+}
+.txt-p {
+  font-family: "Comic Sans MS", arial;
+  font-size: 28px;
+}
+.section-join {
+  height: 38px;
+  width: 139px;
+  border: 2px solid black;
+}
+.section-join span {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 6px;
+}
+.stargram-footer {
+  background: url('../images/Path\ 1207.svg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 267px;
+}
+.footer-logo span {
+  font-family: "Sen", sans-serif;
+  font-size: 43px;
+  color: black;
+}
+
+hr.first{
+  border: none;
+  height: 5.14px;  
+  opacity: 1;
+  border-radius: 4px;
+  background: #FFDF00; 
+  width: 280px;
+  margin-left: 363px;
+  margin-top: -6.5px;
+
+}
+hr.second{
+  border: none;
+  height: 5.14px;
+  width: 359px;
+  border-radius: 4px;
+  background: #FFDF00;
+  opacity: 1;
+  margin-left: 640px;
+  margin-top: -6.5px;
+
+}
+hr.third{
+  border: none;
+    height: 5.14px;
+    width: 326px;
+    background: #FFDF00;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 717px;
+    margin-top: -70px;
+}
+.footer-logo p, .footer-logo p span {
+  font-family: "Comic Sans MS", arial;
+  font-size: 17px;
+}
+.bgblue {
+  background: url("/assets/images/Path\ 1205.svg") no-repeat;
+  background-position: 10px 10px;
+  max-width: 100%;
+
+}
+.bgblue1 {
+  background: url("/assets/images/Path\ 912.svg") no-repeat;
+  height: 300px;
+  padding: 10px;
+  max-width: 100%;
+}
+.rocket {
+  display: flex;
+  align-items: center;
+  width: 520px;
+}
+.rocket h3 {
+  font-family: "Neutraface Text Bold";
+  font-weight: bolder;
+}
+.rocket p {
+  font-family: "Comic Sans MS", arial;
+  font-size: 20px;
+}
+
+.red-box{
+  background: url('/assets/images/red\ search.svg')no-repeat;
+  height: 300px;
+}
+
+.bgred {
+  background: url("/assets/images/Path\ 1204.svg") no-repeat;
+  background-position: 10px 10px;
+}
+.bgred1 {
+  background: url("/assets/images/Path\ 1029.svg") no-repeat;
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  width: 520px;
+}
+.search h3 {
+  font-family: "Neutraface Text Bold";
+  font-weight: bolder;
+}
+.search p {
+  font-family: "Comic Sans MS", arial;
+  font-size: 20px;
+}
+.bgyellow {
+  background: url("/assets/images/Path\ 1206.svg") no-repeat;
+  background-position: 10px 10px;
+}
+.bgyellow1 {
+  background: url("/assets/images/Path\ 922.svg") no-repeat;
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+}
+.gift {
+  display: flex;
+  align-items: center;
+  width: 520px;
+}
+.gift h3 {
+  font-family: "Neutraface Text Bold";
+  font-weight: bolder;
+}
+.gift p {
+  font-family: "Comic Sans MS", arial;
+  font-size: 20px;
+}
+.third-head{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Neutraface Text Bold";
+  font-weight: bolder;
+}
+.third-sub{
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Comic Sans MS", arial;
+  font-size: 29px;
+  font-weight: normal;
+}
+
+.cloud1{
+  background: url('../images/cloud1.svg') no-repeat;
+  height: 200px;
+  margin-left: 23px;
+}
+
+.cloud2{
+  background: url('../images/cloud\ 2.svg') no-repeat;
+  height: 200px;
+  margin-left: 60px;
+}
+
+.outer-cloud3{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  padding-right: 110px;
+}
+.cloud3{
+  background: url('../images/cloud3.svg') no-repeat;
+  height: 200px;
+  width: 300px;
+  
+}
+.cloud3-row{
+  margin-top: 79px;
+}
+.four-head{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Neutraface Text Bold";
+  font-weight: bolder;
+}
+.four-data .box{
+  display: flex;
+  height: 148px;
+  width: 148px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px  ;
+}
+.four-data{
+  display: flex;
+
+}
+.four-data p{
+  font-family: "Comic Sans MS", arial;
+  font-size: 20px;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+.four-data img{
+  display: inline-block;
+  padding-bottom: 12px;
+  margin-top: -6px;
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+  margin-top: 73px;
+}
+
+
+
+.box p{
+  font-family: "Comic Sans MS", arial;
+  font-size: 22px;
+  color: #F86F6F;
+  text-align: center;
+  margin: -1px;
+}
+.last-sect{
+  max-width: auto;
+  height: 81px;
+  
+  border-radius: 6px;
+  box-shadow: 0 2px 4px  ;
+
+}
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.last-p{
+  font-family: "Comic Sans MS", arial;
+  font-size: 1.5rem;
+}
+.last-sub{
+  max-width: auto;
+  max-height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px  ;
+}
+.second-p{
+  font-family: "Comic Sans MS", arial;
+  font-size: 1.125rem;
+  color: #6A6C7B;
+}
+.android{
+  width: 184px; 
+  height: 71px;
+}
+.ios{
+  width: 165px;
+   height: 55px;
+}
+
+
+@media (max-width:699px) and (min-width:400px){
+  
+  .whatsapp-section{
+    margin-top: 115px;
+  }
+  .fifth-section {
+    margin-top: 90px;
+}
+  .txt-h1{
+    font-size: 2.15rem;
+  }
+  .txt-p {
+    
+    font-size: 22px;
+}
+.first-section{
+  margin-top: 100px;
+}
+.img-icon {
+    
+  background-size: 397px 210px;
+  
+}
+  .download-sec{
+    margin-left: 60px;
+  }
+  .footer-text{
+    float: left;
+   
+  }
+  .footer-text span{
+    float: left;
+    margin-right: 180px;
+  }
+  .privacy-text{
+    float: left;
+    margin-right: 200px;
+  }
+  .last-p{
+    font-family: "Comic Sans MS", arial;
+    font-size: 1rem;
+  }
+  .second-p{
+  font-family: "Comic Sans MS", arial;
+  font-size: 0.75rem;
+  color: #6A6C7B;
+  }
+  .cloud2{
+    margin-left: 50px;
+  }
+
+  hr.first{
+    display: none;
+    
+  }
+  hr.second{
+    display: none;
+    
+  }
+  hr.third{
+    display: none;
+    
+  }  
+  .android{
+    width: 158px;
+    height: 71px;
+    margin-left: 10px;
+  }
+  .cloud3-row{
+    margin-top: 0px;
+  }
+  .outer-cloud3{  
+    
+    padding-right: 0px;
+  }
+  .third-head {
+    font-size: 38px;
+  }
+  .third-sub{
+    font-size: 22px;
+    margin-top: 0px;
+  }
+  .four-head{
+    
+    font-size: 38px;
+
+  }
+  .four-head p{
+    
+    margin-bottom: 0rem;
+
+
+  }
+  .second-section {
+    margin-top: 48px;
+  }
+  .third-section{
+    margin-top: 125px;
+  }
+  .fourth-section{
+    margin-top: 50px;
+  }
+  .stargram-footer{
+    margin-top:120px;
+  }
+  .download-sec{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .whats-head {
+  
+    font-size: 38px;
+    
+  }
+  .whatsapp-sub{
+    margin-top: 10px;
+    
+    font-size: 22px;
+    
+  }
+  .join-on-text{
+    margin-top: 22px;
+  }
+  
+}
+@media (max-width:399px) and (min-width:300px){
+  
+  .whatsapp-section{
+    margin-top: 115px;
+  }
+  .fifth-section {
+    margin-top: 90px;
+}
+  .whatsapp-icon{
+    width: 75px;
+    height: 75px;
+    
+  }
+  .txt-h1{
+    font-size: 2.15rem;
+  }
+  .txt-p {
+    
+    font-size: 22px;
+}
+.first-section{
+  margin-top: 100px;
+}
+  .img-icon {
+    
+    background-size: 397px 210px;
+    
+  }
+  .third-head {
+    font-size: 32px;
+  }
+  .third-sub{
+    font-size: 22px;
+    margin-top: 0px;
+  }
+  .four-head{
+    
+    font-size: 32px;
+
+  }
+  .four-head p{
+    
+    margin-bottom: 0rem;
+
+
+  }
+
+.second-section {
+  margin-top: 48px;
+}
+.third-section{
+  margin-top: 125px;
+}
+.fourth-section{
+  margin-top: 50px;
+}
+.stargram-footer{
+  margin-top:120px;
+}
+
+  .download-sec{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .footer-text{
+    float: left;
+   
+  }
+  .footer-text span{
+    float: left;
+    margin-right: 128px;
+  }
+  .privacy-text{
+    float: left;
+    margin-right: 200px;
+  }
+  .last-p{
+    font-family: "Comic Sans MS", arial;
+    font-size: 0.8rem;
+  }
+  .second-p{
+  font-family: "Comic Sans MS", arial;
+  font-size: 0.7rem;
+  color: #6A6C7B;
+  }
+  .cloud2{
+    margin-left: 50px;
+  }
+  hr.first{
+    display: none;
+    
+  }
+  hr.second{
+    display: none;
+    
+  }
+  hr.third{
+    display: none;
+    
+  }  
+  .four-data .box{
+    width: 148px;
+    height: 148px;
+    
+  }
+  .android{
+    width: 130px;
+    height: 71px;
+    margin-left: 10px;
+  }
+  
+
+.ios {
+    width: 128px;
+    height: 55px;
+    margin-left: 10px;
+  }
+  .cloud3-row{
+    margin-top: 0px;
+  }
+  .outer-cloud3{  
+    
+    padding-right: 0px;
+  }
+  .whats-head {
+  
+    font-size: 32px;
+    
+  }
+  .whatsapp-sub{
+    margin-top: 18px;
+    
+    font-size: 20px;
+    
+  }
+  .join-on-text{
+    margin-top: 22px;
+  }
+}
+@media (max-width:800px) and (min-width:700px){
+  
+  .whatsapp-section{
+    margin-top: 115px;
+  }
+
+  .whatsapp-icon{
+    width: 75px;
+    height: 75px;
+    
+  }
+  
+  hr.first{
+    display: none;
+    
+  }
+  hr.second{
+    display: none;
+    
+  }
+  hr.third{
+    display: none;
+    
+  } 
+  .cloud1{
+    width: 270px;
+  }
+  .cloud2{
+    width: 240px;
+    margin-left: 0px;
+  }
+  .cloud3{
+    width: 300px;
+    margin-left: -109px;
+  }
+  .outer-cloud3{
+    width: 430px;
+    padding-right: 46px;
+  }
+  .androind-data{
+    margin-left: -160px;
+
+  }
+  .ios-data{
+    margin-left: -69px;
+  }
+  .for-ios{
+    padding-left: 9px;
+  }
+  
+  .ios{
+    padding-left: 10px;
+    width: 137px;
+  }
+  .txt-h1{
+    font-size: 2.15rem;
+  }
+  .txt-p {
+    
+    font-size: 22px;
+  }
+.first-section{
+  margin-top: 100px;
+}
+.img-icon {
+    
+  background-size: 397px 210px;
+  
+}
+.third-head {
+  font-size: 38px;
+}
+.third-sub{
+  font-size: 22px;
+  margin-top: 0px;
+}
+.four-head{
+  
+  font-size: 38px;
+
+}
+.four-head p{
+  
+  margin-bottom: 0rem;
+
+
+}
+
+.second-section {
+margin-top: 48px;
+}
+.third-section{
+margin-top: 125px;
+}
+.fourth-section{
+margin-top: 50px;
+}
+.stargram-footer{
+margin-top:120px;
+}
+.whats-head {
+  
+  font-size: 38px;
+  
+}
+.whatsapp-sub{
+  margin-top: 18px;
+  
+  font-size: 22px;
+  
+}
+.fifth-section {
+  margin-top: 90px;
+}
+.join-on-text{
+  margin-top: 22px;
+}
+
+
+}
+@media (max-width:343px) and (min-width:320px){
+  
+  
+  .whatsapp-section{
+    margin-top: 115px;
+  }
+
+  .whatsapp-icon{
+    width: 75px;
+    height: 75px;
+    
+  }
+  .footer-text span{
+    float: left;
+    margin-right: 35%;
+  }
+  .footer-text{
+    margin-top: -13px;
+  }
+  .last-p{
+    font-size: 0.7rem;
+  }
+  .cloud2 {
+    margin-left: 10px;
+  }
+  .cloud1{
+    
+    margin-left: 0px;
+
+  }
+  .box{
+    margin-left: -67px;
+  }
+  .whats-head {
+  
+    font-size: 38px;
+    
+  }
+  .whatsapp-sub{
+    margin-top: 18px;
+    
+    font-size: 22px;
+    
+  }
+  .join-on-text{
+    margin-top: 22px;
+  }
+
+
+  .privacy-text {
+    
+    margin-right: 110px;
+    
+    
+}
+
+
+
+.txt-h1{
+  font-size: 2.15rem;
+}
+.txt-p {
+  
+  font-size: 22px;
+}
+.first-section{
+margin-top: 100px;
+}
+.img-icon {
+  
+  background-size: 397px 210px;
+  
+}
+.third-head {
+  font-size: 32px;
+}
+.third-sub{
+  font-size: 20px;
+  margin-top: 0px;
+}
+.four-head{
+  
+  font-size: 32px;
+
+}
+.four-head p{
+  
+  margin-bottom: 0rem;
+
+
+}
+
+.second-section {
+margin-top: 48px;
+}
+.third-section{
+margin-top: 125px;
+}
+.fourth-section{
+margin-top: 50px;
+}
+.stargram-footer{
+margin-top:120px;
+}
+.download-sec {
+  margin-left: 64px;
+  
+}
+.whats-head {
+  
+  font-size: 32px;
+  
+}
+.whatsapp-sub{
+  margin-top: 18px;
+  
+  font-size: 20px;
+  
+}
+.fifth-section {
+  margin-top: 90px;
+}
+
+}
