@@ -14,6 +14,52 @@
 @import url('https://allfont.net/allfont.css?fonts=comic-sans-ms');
 
 
+#send-confirm-text{
+  font-size:1rem;
+  display: none;
+}
+
+.submit-button{
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color:#ffdd00 ;
+    border: none;
+    font-weight: 500;
+    height: 35px;
+    width: 100px;
+    
+
+}
+label{
+  display: block;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-style{
+  width: 75%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+border-bottom: 2px solid #ffdd00;
+background-color:none;
+color: rgb(0, 0, 0);
+
+}
+.sixth-section{
+  margin-top:210px;
+}
+.form-head{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Neutraface Text Bold";
+  font-weight: bolder;
+}
+.submit-form{
+  margin-top: 70px;
+  text-align: center;
+}
 
 .fifth-section{
   margin-top:210px;
@@ -367,9 +413,26 @@ hr.third{
   width: 165px;
    height: 55px;
 }
+.four-head p{
+  
+  margin-top:-2;
+
+
+}
 
 
 @media (max-width:699px) and (min-width:400px){
+  .submit-form{
+    margin-top: 50px;
+    
+  }
+  .form-head{
+    font-size: 32px;
+   }
+   .sixth-section {
+     margin-top: 120px;
+   }
+   
   
   .whatsapp-section{
     margin-top: 115px;
@@ -495,6 +558,17 @@ hr.third{
   
 }
 @media (max-width:399px) and (min-width:300px){
+  .submit-form{
+    margin-top: 50px;
+    
+  }
+  .form-head{
+    font-size: 32px;
+   }
+   .sixth-section {
+     margin-top: 120px;
+   }
+   
   
   .whatsapp-section{
     margin-top: 115px;
@@ -634,6 +708,17 @@ hr.third{
   }
 }
 @media (max-width:800px) and (min-width:700px){
+  .submit-form{
+    margin-top: 50px;
+    
+  }
+  .form-head{
+    font-size: 32px;
+   }
+   .sixth-section {
+     margin-top: 120px;
+   }
+   
   
   .whatsapp-section{
     margin-top: 115px;
@@ -754,7 +839,16 @@ margin-top:120px;
 
 }
 @media (max-width:343px) and (min-width:320px){
-  
+  .submit-form{
+    margin-top: 50px;
+    
+  }
+  .form-head{
+   font-size: 32px;
+  }
+  .sixth-section {
+    margin-top: 120px;
+  }
   
   .whatsapp-section{
     margin-top: 115px;
@@ -876,4 +970,30 @@ margin-top:120px;
   margin-top: 90px;
 }
 
+}
+@media (max-width:1024px) and (min-width:801px){
+ hr{
+   display: none;
+ } 
+ .cloud1{
+   width:150%;
+ }
+ .cloud2{
+  width:150%;
+}
+.cloud3{
+  width:150%;
+}
+}
+
+@media (max-width:1400px) and (min-width:1025px){
+  .cloud1{
+    width:150%;
+  }
+  .cloud2{
+   width:150%;
+ }
+ .cloud3{
+   width:150%;
+ }
 }
