@@ -10,11 +10,6 @@
   display: none;
 }
 
-.android{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 .submit-button{
     margin-top: 20px;
     border-radius: 8px;
@@ -404,6 +399,9 @@ hr.third{
 .android{
   width: 184px; 
   height: 71px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .ios{
   width: 165px;
