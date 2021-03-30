@@ -10,6 +10,13 @@
   display: none;
 }
 
+.android{
+  width: 184px; 
+  height: 71px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .submit-button{
     margin-top: 20px;
     border-radius: 8px;
@@ -407,13 +414,7 @@ hr.third{
 
 
 }
-.android{
-  width: 184px; 
-  height: 71px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+
 
 @media (max-width:699px) and (min-width:400px){
   .submit-form{
@@ -489,11 +490,6 @@ hr.third{
     display: none;
     
   }  
-  /* .android{
-    width: 158px;
-    height: 71px;
-    margin-left: 10px;
-  } */
   .cloud3-row{
     margin-top: 0px;
   }
@@ -671,18 +667,7 @@ hr.third{
     height: 148px;
     
   }
-  /* .android{
-    width: 130px;
-    height: 71px;
-    margin-left: 10px;
-  }
-   */
-
-/* .ios {
-    width: 128px;
-    height: 55px;
-    margin-left: 10px;
-  } */
+  
   .cloud3-row{
     margin-top: 0px;
   }
