@@ -407,7 +407,13 @@ hr.third{
 
 
 }
-
+.android{
+  width: 184px; 
+  height: 71px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 @media (max-width:699px) and (min-width:400px){
   .submit-form{
@@ -999,12 +1005,4 @@ margin-top:120px;
  .cloud3{
    width:150%;
  }
-}
-
-.android{
-  width: 184px; 
-  height: 71px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
